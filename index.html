@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Encryption Project</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="main.css" />
+</head>
+
+<body>
+    <div class="container">
+    <div class="myInfo">
+        <h1>Encryption Project</h1>
+        <h2>Mohamed Ahmed Mohamed Elkhafef</h2>
+        <h3>Section 3</h3>
+    </div>
+    <div class="type">
+        <h4>type of cipher</h4>
+        <input type="radio" id="caesar" name="cipher">
+        <label for="caesar ">caesar </label>
+        <input type="radio" id="playFair" name="cipher">
+        <label for="playFair">play fair</label>
+    </div>
+    <div class="keys">
+        <div>
+            <label for="caesarKey" class="key">caesar  Key</label>
+            <input type="text" id="caesarKey">
+        </div>
+        <div>
+            <label for="playFairKey" class="key">Play Fair Key</label>
+            <input type="text" id="playFairKey">
+        </div>
+    </div>
+    <div class="plainMessage">
+        <label for="plain" id="labelPlain">plain text</label>
+        <textarea id="plain"></textarea>
+    </div>
+    <div class="encryptedMessage">
+        <label for="encrypted" id="labelEncrypted">encrypted text</label>
+        <textarea id="encrypted"></textarea>
+    </div>
+    <div class="buttons">
+        <button id="encrypte">encrypte</button>
+        <button id="decrypte">decrypte</button>
+        <button id="reset">reset</button>
+    </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
